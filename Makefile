@@ -2,3 +2,4 @@ all    :;  DAPP_BUILD_OPTIMIZE=1 DAPP_BUILD_OPTIMIZE_RUNS=1000000 dapp --use sol
 clean  :; dapp clean
 test   :; ./test-drizzle.sh
 deploy :; make && dapp create Drizzle
+flatten      :; hevm flatten --source-file "src/Drizzle.sol" > out/Drizzle-flat.sol
