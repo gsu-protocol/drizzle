@@ -35,7 +35,7 @@ interface JugLike {
 
 contract Drizzle {
 
-    Chainlog    private constant  _chl = Chainlog(0xdA0Ab1e0017DEbCd72Be8599041a2aa3bA7e740F);
+    Chainlog    private constant  _chl = Chainlog(0xBCe4D2D8595f65ce6c8b09582b83d49Ee0f287Da);
     IlkRegistry private immutable _reg;
     PotLike     private immutable _pot;
     JugLike     private immutable _jug;
